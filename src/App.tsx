@@ -1,16 +1,29 @@
 import { useState } from 'react';
+import { data } from './utils/data';
+// Icon
 import MainIcon from './assets/omikuji.png';
 
 function App() {
-  const [omikuji, setOmikuji] = useState('Draw a fortune slip.');
+  const [omikuji, setOmikuji] = useState({ name: '', description: '' });
 
-  const clickHandler = () => {};
+  // Click function
+  const clickHandler = () => {
+    const randomIndex = Math.floor(Math.random() * data.length);
+    setOmikuji(data[randomIndex]);
+  };
 
   return (
+    // JSX
     <div className='main'>
-      <img src={MainIcon} alt='Icon' width='70' />
+      <img src={MainIcon} alt='Icon' />
       <h2>Omikuji</h2>
-      <button>Draw</button>
+      <button onClick={clickHandler}>Draw</button>
+      {omikuji && (
+        <div>
+          <h2>{omikuji.name}</h2>
+          <p>{omikuji.description}</p>
+        </div>
+      )}
     </div>
   );
 }
