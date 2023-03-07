@@ -4,3 +4,10 @@
 
 - React
 - Vite
+
+| Fortunes |   Definition    |
+| -------- | :-------------: |
+| 大吉　   | Excellent luck  |
+| 吉　　   |  Good blessing  |
+| 中吉　   | Middle blessing |
+| 小吉　   | Small blessing  |
