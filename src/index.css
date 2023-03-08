@@ -1,9 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  border-sizing: border-box;
+}
+
+body {
+  background-image: url('./assets/main-bg.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
 .main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  color: white;
+  width: 40%;
+  height: 70vh;
+  padding: 5rem;
 }
 
 button {
@@ -24,4 +40,8 @@ button:hover {
 
 .result {
   padding: 2rem;
+}
+
+.result h1 {
+  text-align: center;
 }
