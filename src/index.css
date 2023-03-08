@@ -1,7 +1,8 @@
+/* reset */
 * {
   margin: 0;
   padding: 0;
-  border-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -17,8 +18,7 @@ body {
   justify-content: center;
   align-items: center;
   color: white;
-  width: 40%;
-  height: 70vh;
+  height: 100vh;
   padding: 5rem;
 }
 
@@ -44,4 +44,22 @@ button:hover {
 
 .result h1 {
   text-align: center;
+}
+
+.result p {
+  line-height: 140%;
+  margin-top: 20px;
+}
+
+/* breakpoints */
+@media screen and (min-width: 768px) {
+  .main {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .main {
+    font-size: 20px;
+  }
 }
