@@ -15,12 +15,12 @@ function App() {
   return (
     // JSX
     <div className='main'>
-      <img src={MainIcon} alt='Icon' />
+      <img src={MainIcon} alt='Icon' width='100' />
       <h2>Omikuji</h2>
       <button onClick={clickHandler}>Draw</button>
       {omikuji && (
-        <div>
-          <h2>{omikuji.name}</h2>
+        <div className='result'>
+          <h1>{omikuji.name}</h1>
           <p>{omikuji.description}</p>
         </div>
       )}
