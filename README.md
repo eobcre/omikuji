@@ -14,12 +14,12 @@ People tend to purchase at the begining of the year at their first visit.
 
 ## Definition
 
-| Levels | How to read |           Meaning |
-| ------ | :---------: | ----------------: |
-| 大吉   |  Daikichi   |    Great blessing |
-| 中吉   |  Chukichi   |   Middle blessing |
-| 小吉   |  Shokichi   |    Small blessing |
-| 吉     |    Kichi    |          Blessing |
-| 末吉   |  Suekichi   |   Future blessing |
-| 凶     |     Kyo     |       Bad fortune |
-| 大凶   |   Daikyo    | Great bad fortune |
+| Levels | How to read |      Meaning      |
+| :----: | :---------: | :---------------: |
+|  大吉  |  Daikichi   |  Great blessing   |
+|  中吉  |  Chukichi   |  Middle blessing  |
+|  小吉  |  Shokichi   |  Small blessing   |
+|   吉   |    Kichi    |     Blessing      |
+|  末吉  |  Suekichi   |  Future blessing  |
+|   凶   |     Kyo     |    Bad fortune    |
+|  大凶  |   Daikyo    | Great bad fortune |
