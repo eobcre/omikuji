@@ -1,9 +1,9 @@
 import { useState } from 'react';
 // utils
 import { data } from '../utils/data';
-import { Omikuji } from '../utils/type';
+import { ButtonProps, Omikuji } from '../utils/type';
 
-export const Button = () => {
+export const Button = (props: ButtonProps) => {
   const [omikuji, setOmikuji] = useState<Omikuji>({
     name: '',
     description: '',
@@ -17,7 +17,7 @@ export const Button = () => {
   return (
     // JSX
     <>
-      <button onClick={clickHandler}>Draw</button>
+      <button onClick={clickHandler}>{props.name}</button>
       <div>
         {omikuji && (
           <div className='result'>
