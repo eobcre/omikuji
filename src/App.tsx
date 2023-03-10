@@ -6,8 +6,8 @@ const App = () => {
   return (
     // JSX
     <div className='main'>
-      <Title />
-      <Button />
+      <Title title='Omikuji' />
+      <Button name='Draw' />
     </div>
   );
 };
