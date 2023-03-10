@@ -1,4 +1,5 @@
 import { useState } from 'react';
+// utils
 import { data } from '../utils/data';
 import { Omikuji } from '../utils/type';
 
@@ -14,6 +15,7 @@ export const Button = () => {
     setOmikuji(data[randomIndex]);
   };
   return (
+    // JSX
     <>
       <button onClick={clickHandler}>Draw</button>
       <div>
