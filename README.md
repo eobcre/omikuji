@@ -4,6 +4,9 @@
 
 - React
 - Vite
+- TypeScript
+- HTML
+- CSS
 
 ## What is Omikuji?
 
