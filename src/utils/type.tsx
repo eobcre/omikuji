@@ -3,10 +3,10 @@ export type Omikuji = {
   description: string;
 };
 
-export type ButtonProps = {
-  name: string;
-};
-
 export type TitleProps = {
   title: string;
+};
+
+export type ButtonProps = {
+  name: string;
 };
