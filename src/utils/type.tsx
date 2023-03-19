@@ -9,4 +9,5 @@ export type TitleProps = {
 
 export type ButtonProps = {
   name: string;
+  setOmikuji: React.Dispatch<React.SetStateAction<Omikuji>>;
 };
