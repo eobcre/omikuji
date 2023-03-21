@@ -7,6 +7,7 @@
 - TypeScript
 - HTML
 - CSS
+- Heroku
 
 ## What is Omikuji?
 
