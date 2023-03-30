@@ -12,6 +12,10 @@ export type ButtonProps = {
   setOmikuji: React.Dispatch<React.SetStateAction<Omikuji>>;
 };
 
+export type ResetButtonProps = {
+  reset: string;
+};
+
 export type ResultProps = {
   omikuji: Omikuji;
 };
