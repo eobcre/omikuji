@@ -9,11 +9,8 @@ export type TitleProps = {
 
 export type ButtonProps = {
   name: string;
+  setButtonClicked: React.Dispatch<React.SetStateAction<boolean>>;
   setOmikuji: React.Dispatch<React.SetStateAction<Omikuji>>;
-};
-
-export type ResetButtonProps = {
-  reset: string;
 };
 
 export type ResultProps = {
