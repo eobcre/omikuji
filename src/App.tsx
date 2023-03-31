@@ -7,15 +7,22 @@ import { Result } from './components/Result';
 import { Omikuji } from './utils/type';
 
 const App = () => {
+  const [buttonClicked, setButtonClicked] = useState(false);
+
   const [omikuji, setOmikuji] = useState<Omikuji>({
     name: '',
     description: '',
   });
+
   return (
     // JSX
     <div className='main'>
       <Title title='Omikuji' />
-      <Button name='Draw' setOmikuji={setOmikuji} />
+      <Button
+        name={buttonClicked ? 'Draw again?' : 'Draw'}
+        setOmikuji={setOmikuji}
+        setButtonClicked={setButtonClicked}
+      />
       <Result omikuji={omikuji} />
     </div>
   );
