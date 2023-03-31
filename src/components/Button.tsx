@@ -8,6 +8,7 @@ export const Button = (props: ButtonProps) => {
     const randomIndex = Math.floor(Math.random() * data.length);
     const omikujiNum: Omikuji = data[randomIndex];
     props.setOmikuji(omikujiNum);
+    props.setButtonClicked(true);
   };
   return (
     // JSX
