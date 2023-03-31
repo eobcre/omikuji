@@ -37,6 +37,7 @@ button:hover {
   color: black;
   background: white;
   transition: all 4s ease-out;
+  -webkit-transition: all 4s ease-out;
 }
 
 .result {
