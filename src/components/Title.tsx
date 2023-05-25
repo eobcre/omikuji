@@ -3,7 +3,7 @@ import { TitleProps } from '../utils/type';
 // icon
 import MainIcon from '../assets/omikuji.png';
 
-export const Title = (props: TitleProps) => {
+const Title = (props: TitleProps) => {
   return (
     <div>
       <img src={MainIcon} alt='Icon' width='100' />
@@ -11,3 +11,5 @@ export const Title = (props: TitleProps) => {
     </div>
   );
 };
+
+export default Title;

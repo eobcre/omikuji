@@ -1,7 +1,7 @@
 // utils
 import { ResultProps } from '../utils/type';
 
-export const Result = (props: ResultProps) => {
+const Result = (props: ResultProps) => {
   return (
     <div>
       {props.omikuji && (
@@ -13,3 +13,5 @@ export const Result = (props: ResultProps) => {
     </div>
   );
 };
+
+export default Result;
