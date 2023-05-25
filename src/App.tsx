@@ -1,8 +1,8 @@
 import { useState } from 'react';
 // components
-import { Title } from './components/Title';
-import { Button } from './components/Button';
-import { Result } from './components/Result';
+import Title from './components/Title';
+import Button from './components/Button';
+import Result from './components/Result';
 // utils
 import { Omikuji } from './utils/type';
 
