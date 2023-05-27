@@ -6,7 +6,7 @@ import Result from './components/Result';
 // utils
 import { Omikuji } from './utils/type';
 
-const App = () => {
+const App: React.FC = () => {
   const [buttonClicked, setButtonClicked] = useState<boolean>(false);
 
   const [omikuji, setOmikuji] = useState<Omikuji>({

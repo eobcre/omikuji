@@ -1,7 +1,7 @@
 // utils
 import { ResultProps } from '../utils/type';
 
-const Result = (props: ResultProps) => {
+const Result: React.FC<ResultProps> = (props) => {
   return (
     <div>
       {props.omikuji && (

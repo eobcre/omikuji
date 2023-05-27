@@ -2,7 +2,7 @@
 import { data } from '../utils/data';
 import { ButtonProps, Omikuji } from '../utils/type';
 
-const Button = (props: ButtonProps) => {
+const Button: React.FC<ButtonProps> = (props) => {
   // click
   const clickHandler = () => {
     const randomIndex = Math.floor(Math.random() * data.length);
