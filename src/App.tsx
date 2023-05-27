@@ -15,7 +15,6 @@ const App: React.FC = () => {
   });
 
   return (
-    // JSX
     <div className='main'>
       <Title title='Omikuji' />
       <Button
