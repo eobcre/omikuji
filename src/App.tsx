@@ -7,7 +7,7 @@ import Result from './components/Result';
 import { Omikuji } from './utils/type';
 
 const App = () => {
-  const [buttonClicked, setButtonClicked] = useState(false);
+  const [buttonClicked, setButtonClicked] = useState<boolean>(false);
 
   const [omikuji, setOmikuji] = useState<Omikuji>({
     name: '',
