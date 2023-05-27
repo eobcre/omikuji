@@ -10,6 +10,7 @@ const Button: React.FC<ButtonProps> = (props) => {
     props.setOmikuji(omikujiNum);
     props.setButtonClicked(true);
   };
+
   return (
     <>
       <button onClick={clickHandler}>{props.name}</button>
