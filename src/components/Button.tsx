@@ -3,7 +3,7 @@ import { data } from '../utils/data';
 import { ButtonProps, Omikuji } from '../utils/type';
 
 const Button: React.FC<ButtonProps> = (props) => {
-  // click
+  // click button logic
   const clickHandler = () => {
     const randomIndex = Math.floor(Math.random() * data.length);
     const omikujiNum: Omikuji = data[randomIndex];
@@ -11,7 +11,6 @@ const Button: React.FC<ButtonProps> = (props) => {
     props.setButtonClicked(true);
   };
   return (
-    // JSX
     <>
       <button onClick={clickHandler}>{props.name}</button>
     </>
