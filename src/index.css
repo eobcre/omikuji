@@ -23,6 +23,7 @@ body {
 }
 
 button {
+  font-family: serif;
   color: white;
   background: black;
   border: 2px solid;
